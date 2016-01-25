@@ -48,7 +48,7 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T1D-vQ-gKk">
                                 <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="pYV-Jh-DCP">
+                                    <navigationItem title="MapApp" id="pYV-Jh-DCP">
                                         <barButtonItem key="rightBarButtonItem" title="Route" id="Wcc-wD-ADT">
                                             <connections>
                                                 <action selector="Route:" destination="BYZ-38-t0r" id="JUU-lQ-39F"/>
