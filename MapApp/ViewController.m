@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MapPin.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,18 @@
     locationManager = [[CLLocationManager alloc] init];
     locationManager.delegate = self;
     
+    MKCoordinateRegion region = {{0.0, 0.0}, {0.0, 0.0}};
+    region.center.latitude = 47.5605413;
+    region.center.longitude = -52.71283149999999;
+    region.span.latitudeDelta = 0.01f;
+    region.span.longitudeDelta = 0.01f;
+    [self.mapView setRegion:region animated:YES];
+    
+    MapPin *ann = [[MapPin alloc] init];
+    ann.title = @"St.John's";
+    ann.subtitle = @"Newfoundland";
+    ann.coordinate = region.center;
+    [self.mapView addAnnotation:ann];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,5 +63,8 @@
     
     self.mapView.showsUserLocation = YES;
     
+}
+
+- (IBAction)Route:(id)sender {
 }
 @end

@@ -16,6 +16,7 @@
 		96D5A4B31C55E2AA00F7F860 /* MapAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A4B21C55E2AA00F7F860 /* MapAppTests.m */; };
 		96D5A4BE1C55E2AA00F7F860 /* MapAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A4BD1C55E2AA00F7F860 /* MapAppUITests.m */; };
 		96D5A4CC1C55EA1C00F7F860 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D5A4CB1C55EA1C00F7F860 /* MapKit.framework */; };
+		96D5A4CF1C55F0EE00F7F860 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A4CE1C55F0EE00F7F860 /* MapPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		96D5A4BD1C55E2AA00F7F860 /* MapAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapAppUITests.m; sourceTree = "<group>"; };
 		96D5A4BF1C55E2AA00F7F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D5A4CB1C55EA1C00F7F860 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		96D5A4CD1C55F0EE00F7F860 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		96D5A4CE1C55F0EE00F7F860 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				96D5A49C1C55E2AA00F7F860 /* AppDelegate.m */,
 				96D5A49E1C55E2AA00F7F860 /* ViewController.h */,
 				96D5A49F1C55E2AA00F7F860 /* ViewController.m */,
+				96D5A4CD1C55F0EE00F7F860 /* MapPin.h */,
+				96D5A4CE1C55F0EE00F7F860 /* MapPin.m */,
 				96D5A4A11C55E2AA00F7F860 /* Main.storyboard */,
 				96D5A4A41C55E2AA00F7F860 /* Assets.xcassets */,
 				96D5A4A61C55E2AA00F7F860 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D5A4CF1C55F0EE00F7F860 /* MapPin.m in Sources */,
 				96D5A4A01C55E2AA00F7F860 /* ViewController.m in Sources */,
 				96D5A49D1C55E2AA00F7F860 /* AppDelegate.m in Sources */,
 				96D5A49A1C55E2AA00F7F860 /* main.m in Sources */,
